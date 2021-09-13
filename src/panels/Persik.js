@@ -27,12 +27,12 @@ const Persik = props => (
 
 
 			<div className="text">
-				<h1>Московское время:</h1>
+				<h1>Местное время:</h1>
 				<h2>-- {new Date().toLocaleTimeString()} --</h2>
 			</div>
 
 
-
+			<button type="button" class="btn btn-primary">Главный</button>
 
 
 

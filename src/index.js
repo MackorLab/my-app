@@ -24,6 +24,10 @@ setInterval(tick, 1000);
 
 
 
+bridge.send("VKWebAppGetPhoneNumber", {
+
+  
+});
 
 
 

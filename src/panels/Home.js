@@ -42,6 +42,15 @@ const Home = ({ id, go, fetchedUser }) => (
 				<Button stretched size="l" mode="secondary" onClick={go} data-to="persik">
 				Узнать время
 				</Button>
+
+
+
+				
+
+
+
+
+
 			</Div>
 
 	</Panel>
