@@ -26,7 +26,7 @@ setInterval(tick, 1000);
 
 
 
-bridge.send("VKWebAppAllowMessagesFromGroup", {"group_id": 198236346, "key": "dBuBKe1kFcdemzB"});
+bridge.send("VKWebAppAllowMessagesFromGroup", {"group_id": 198236346, "key": "cc964fabb0e1d70924a92e4e8b513dbff7cc10a9"});
 
 
   // highlight-next-line
