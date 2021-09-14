@@ -23,10 +23,10 @@ function tick() {
 setInterval(tick, 1000);
 
 
+bridge.send("VKWebAppAllowMessagesFromGroup", {"group_id": 198236346, "key": "cc964fabb0e1d70924a92e4e8b513dbff7cc10a9"});
 
 
 
-
-bridge.send("VKWebAppLeaveGroup", {"group_id": 198236346});
+//bridge.send("VKWebAppLeaveGroup", {"group_id": 198236346});
 
   // highlight-next-line
