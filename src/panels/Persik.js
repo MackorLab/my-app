@@ -1,10 +1,12 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-
+import bridge from "@vkontakte/vk-bridge";
 
 
 //import { Panel, PanelHeader, PanelHeaderBack } from '@vkontakte/vkui';
 import { Panel, PanelHeader, Button, PanelHeaderBack, Header, Group, Cell, Div, Avatar } from '@vkontakte/vkui';
+
+bridge.send("VKWebAppTapticNotificationOccurred", {"type": "success"});
 
 
 import persik from '../img/Moscow.jpg';
@@ -32,7 +34,7 @@ const Persik = props => (
 			</div>
 
 
-			<button type="button" class="btn btn-primary">Главный</button>
+			
 
 
 
