@@ -7,7 +7,7 @@ import bridge from "@vkontakte/vk-bridge";
 import { Panel, PanelHeader, Button, PanelHeaderBack, Header, Group, Cell, Div, Avatar } from '@vkontakte/vkui';
 
 bridge.send("VKWebAppTapticNotificationOccurred", {"type": "success"});
-bridge.send("VKWebAppAllowMessagesFromGroup", {"group_id": 198236346, "key": "dBuBKe1kFcdemzB"});
+
 
 import persik from '../img/Moscow.jpg';
 import './Persik.css';
@@ -34,8 +34,7 @@ const Persik = props => (
 			</div>
 
 
-			
-
+		
 
 
 
