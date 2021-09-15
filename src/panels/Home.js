@@ -50,11 +50,7 @@ const Home = ({ id, go, fetchedUser }) => (
 
 
 				
-			<Button size="l" mode="secondary"onClick={()=>{bridge.send("VKWebAppShowNativeAds", {ad_format:"preloader"}) 
-         .then(data => console.log(data.result)) 
-        .catch(error => console.log(error));}}>
-          Show me the Persik, please
-        </Button>
+		
 
 
 
